@@ -7,7 +7,7 @@ layout: default
   {{ content }}
 
   {%- if site.posts.size > 0 -%}
-    <ul class="grid grid-cols-3 gap-4">
+    <ul class="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
       {%- for post in site.posts -%}
       <li class="card bg-base-100 shadow-md">
         <a href="{{ post.url | relative_url }}">
