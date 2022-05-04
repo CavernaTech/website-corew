@@ -20,18 +20,18 @@ layout: default
 
   {%- if site.posts.size > 0 -%}
   <div class="hero bg-base-200" aria-label="Posts">
-    <div class="hero-content max-w-5xl p-10 gap-10 flex-col">
+    <div class="hero-content max-w-5xl p-10 gap-10 flex-col dark">
       <h1 class="text-5xl font-bold text-left w-full mb-auto">
         Fique por dentro
       </h1>
       <ul class="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
         {%- for post in site.posts -%}
-        <li class="card bg-base-100 shadow-md">
+        <li class="card bg-base-100 shadow-md hover:shadow-xl">
           <a href="{{ post.url | relative_url }}">
             <figure><img src="{{ post.image | relative_url }}" /></figure>
-            <div class="card-body">
+            <div class="card-body hover:text-state-50">
               <h2 class="card-title">{{ post.title | escape }}</h2>
-              <p>{{ post.summary | escape }}</p>
+              <p class="text-slate-500 dark:text-slate-400 mt-2 text-sm">{{ post.summary | escape }}</p>
               <div class="card-actions justify-end">
                 {%- assign date_format = site.minima.date_format | default: "%b
                 %-d, %Y" -%}
