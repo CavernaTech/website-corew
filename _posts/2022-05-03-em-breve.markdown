@@ -4,6 +4,8 @@ title:  "Em Breve"
 date:   2022-05-03 16:38:21 -0300
 categories: novidade
 author: José Gabriel Gruber
+image: assets/images/ARoad.jpeg
+summary: Tem novidades chegando!
 ---
 Esta é a Corew, uma empresa segmentada ao desenvolvimento de soluções empresariais, voltadas ao setor de Comércio e Indústria.
 Pretendemos colocar muito mais conteúdo aqui, como nossos produtos, soluções, documentações e afins!
