@@ -17,10 +17,10 @@ layout: default
     </header>
   
     {%- if page.image -%}
-      <img src="{{ page.image | relative_url }}" class="sm:max-w-sm lg:max-w-4xl rounded-lg shadow-2xl" />
+      <img src="{{ page.image | relative_url }}" class="sm:max-w-sm lg:max-w-4xl rounded-lg shadow-md" />
     {%- endif -%}
 
-    <div class="post-content e-content max-w-2xl" itemprop="articleBody">
+    <div class="post-content e-content max-w-2xl mt-5" itemprop="articleBody">
       {{ content }}
     </div>
   
