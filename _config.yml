@@ -30,6 +30,8 @@ twitter_username: corew.com.br
 github_username: CavernaTech
 instagram_username: corew.com.br
 
+google_analytics: G-EYPFGGRX5J
+
 # Build settings
 theme: minima
 plugins:
