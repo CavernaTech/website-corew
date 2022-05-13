@@ -1,0 +1,11 @@
+.site-nav .nav-trigger { display: none; }
+
+.site-nav .menu-icon { display: none; padding: 25%; }
+
+.site-nav .page-link { line-height: 1.5; }
+
+.site-nav .page-link:not(:last-child) { margin-right: 20px; }
+
+@media screen and (max-width: 600px) { .site-nav .menu-icon { display: block; } .site-nav input ~ .trigger { clear: both; display: none; } .site-nav input:checked ~ .trigger { display: block; padding-bottom: 5px; } }
+
+/*# sourceMappingURL=main.css.map */

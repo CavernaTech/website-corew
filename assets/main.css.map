@@ -1,0 +1,14 @@
+{
+	"version": 3,
+	"file": "main.css",
+	"sources": [
+		"main.scss",
+		"_sass/main.scss"
+	],
+	"sourcesContent": [
+		"@import \"main\";\n",
+		"@charset \"utf-8\";\n\n\n@mixin media-query($device) {\n  @media screen and (max-width: $device) {\n    @content;\n  }\n}\n\n.site-nav {\n\n  .nav-trigger {\n      display: none;\n  }\n\n  .menu-icon {\n    display: none;\n    padding: 25%;\n  }\n\n  .page-link {\n    line-height: 1.5;\n\n    // Gaps between nav items, but not on the last one\n    &:not(:last-child) {\n      margin-right: 20px;\n    }\n  }\n\n  @include media-query(600px) {\n\n    .menu-icon {\n      display: block;\n    }\n\n    input ~ .trigger {\n      clear: both;\n      display: none;\n    }\n\n    input:checked ~ .trigger {\n      display: block;\n      padding-bottom: 5px;\n    }\n  }\n}\n"
+	],
+	"names": [],
+	"mappings": "ACSA,AAEE,SAFO,CAEP,YAAY,CAAC,EACT,OAAO,EAAE,IAAI,GAChB;;AAJH,AAME,SANO,CAMP,UAAU,CAAC,EACT,OAAO,EAAE,IAAI,EACb,OAAO,EAAE,GAAG,GACb;;AATH,AAWE,SAXO,CAWP,UAAU,CAAC,EACT,WAAW,EAAE,GAAG,GAMjB;;AAlBH,AAeI,SAfK,CAWP,UAAU,CAIP,GAAK,EAAC,UAAU,EAAE,EACjB,YAAY,EAAE,IAAI,GACnB;;AAtBH,MAAM,8BA2BJ,GAtBJ,AAsBI,SAtBK,CAsBL,UAAU,CAAC,EACT,OAAO,EAAE,KAAK,GACf,CAxBL,AA0BI,SA1BK,CA0BL,KAAK,GAAG,QAAQ,CAAC,EACf,KAAK,EAAE,IAAI,EACX,OAAO,EAAE,IAAI,GACd,CA7BL,AA+BI,SA/BK,CA+BL,KAAK,CAAC,OAAO,GAAG,QAAQ,CAAC,EACvB,OAAO,EAAE,KAAK,EACd,cAAc,EAAE,GAAG,GACpB,EAVA"
+}
