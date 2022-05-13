@@ -26,9 +26,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Opere com simplicidade e tranquilidade, usando soluções de mobilidade, TI, nuvem e análise
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://corew.com.br" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: corew.com.br
 github_username: CavernaTech
-instagram_username: corew.com.br
 lang: pt-br
 
 google_analytics: G-EYPFGGRX5J
